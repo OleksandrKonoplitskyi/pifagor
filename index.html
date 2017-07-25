@@ -1,0 +1,2535 @@
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Пифагор</title>
+
+    <link href="fonts/fonts.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/ihov.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.circliful.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery-3.1.1.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.circliful.min.js"></script>
+
+</head>
+<body>
+
+
+<header class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-2">
+            <a class="logo">
+                <img src="img/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="col-xs-12 col-md-10">
+            <div class="row firstheaderline">
+                <div class="col-xs-12  col-sm-3 col-md-4 col-lg-3">
+                    <p>Строительная компания</p>
+                </div>
+                <div class="col-xs-12 col-sm-7 col-md-8 col-lg-7 contactheader">
+                    <a href="tel:+78123894286"><img src="img/phone.png" alt="phone"><span>+7 (812) 389-42-86</span></a>
+                    <a href="#"><img src="img/mail.png" alt="image"><span>info@sk-pifagor.ru </span></a>
+                    <a href="#"><span>skpifagor@bk.ru </span></a>
+                </div>
+                <div class="col-xs-12 col-sm-2 hidden-md col-lg-2">
+                    <div class="row">
+                        <button type="button" class=" zakaz button button--isi2" data-toggle="modal"
+                                data-target="#myModal">
+                            <img src="img/ph.png" alt="image"><!--<span>Заказать цену</span>-->Заказать цену
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <nav class="navbar">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav" id="menu">
+                            <li class="active"><a href="#">Главная</a></li>
+                            <li><a href="#proj">Проекты</a></li>
+                            <li><a href="#complect">Комплектация</a></li>
+                            <li><a href="#plus">Плюсы работы с ними</a></li>
+                            <li><a href="#testimonial">Отзывы</a></li>
+                            <li><a href="#question">Вопрос/Ответ</a></li>
+                            <li><a href="#why">Почему клиент доверяют нам</a></li>
+                            <li><a href="#contact">Контакты</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="bannermain">
+    <img class="mov  wow fadeInLeft" src="img/lefblockbanner.png" alt="banner" data-wow-offset="200" data-wow-delay="3s"
+         data-wow-duration="1s">
+    <div class="absol  wow fadeInLeft" data-wow-offset="200" data-wow-delay="3s" data-wow-duration=4s">
+        <h1>Дом из газобетона <b>за 30 дней</b><br>
+            и по фиксированной цене</h1>
+        <a data-toggle="modal" data-target="#myModal3" class="detailw button--ujarak"><span>Заказать сейчас</span></a>
+    </div>
+    <div class="container banner wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.5s" data-wow-duration="2s">
+        <div class="row banerright">
+            <div class="col-xs-12">
+                <p class="rightb wow  fadeInRight" data-wow-offset="200" data-wow-delay="3s" data-wow-duration=4s">Дома
+                    из газобетона <br><span>от 980 000 рублей</span></p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="build" id="proj">
+    <div class="container ">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Мы построим Вам самый лучший и комфортный дом</h1>
+            </div>
+        </div>
+        <div class="row" id="tochose">
+            <div class="col-xs-12 col-md-4">
+                <div class="blockbuild">
+                    <img class="img-responsive" src="img/itembulid_1.png" alt="image">
+                    <p>Дома до 1 млн рублей</p>
+                    <a class="button button--ujarak" onclick="toone()" href="#choose"><span>Узнать больше</span></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="blockbuild">
+                    <img class="img-responsive" src="img/itembulid_2.png" alt="image">
+                    <p>Дома до 2,5 млн рублей</p>
+                    <a class="button button--ujarak" onclick="totwo()" href="#choose"><span>Узнать больше</span></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="blockbuild">
+                    <img class="img-responsive" src="img/itembulid_3.png" alt="image">
+                    <p>Дома от 2,5 млн рублей</p>
+                    <a class="button button--ujarak" onclick="tomore()" href="#choose"><span>Узнать больше</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="question-title">
+        Под ваш бюджет и <b>пожелания по архитектуре!</b>
+        <button type="submit" data-toggle="modal" data-target="#myModal3" class="btn parallelogram button--ujarak"><span
+                class="skew-fix">Узнать подробнее</span></button>
+    </div>
+    <div class="container">
+        <div class="row preim">
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="itempreim">
+                    <p>38</p>
+                </div>
+                <p class="text-center">Построенных домов<br>
+                    "под ключ"</p>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="itempreim">
+                    <p>84</p>
+                </div>
+                <p class="text-center">Построенных домов<br>
+                    "под крышу"</p>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="itempreim">
+                    <p>7</p>
+                </div>
+                <p class="text-center">Лет опыта <br>
+                    на рынке"</p>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="itempreim">
+                    <p>10</p>
+                </div>
+                <p class="text-center">Лет оптыа<br>
+                    бригад строитлей</p>
+            </div>
+        </div>
+        <div class="row preim">
+            <div class="col-xs-12 col-sm-4 col-md-offset-2 col-md-2">
+                <div class="itempreim">
+                    <p>2</p>
+                </div>
+                <p class="text-center">Года гарантии на<br>
+                    построенный дом</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="itempreim">
+                    <p>365</p>
+                </div>
+                <p class="text-center">Строим качественные<br>
+                    дома круглый год</p>
+            </div>
+            <div class="col-xs-12 col-sm-4  col-md-2">
+                <div class="itempreim">
+                    <p class="sm">100%</p>
+                </div>
+                <p class="text-center">Гарантии соблюдени <br>
+                    ГОСТов и СНИПов</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class=" choose" id="choose">
+    <div class="container chose">
+        <div class="row">
+            <h1 class="text-center">Выберите дом для себя</h1>
+        </div>
+        <div class="row hidden-xs">
+            <div class="col-xs-12 col-md-6">
+                <div class="row">
+                    <ul class="nav" role="tablist">
+                        <li role="presentation" class="col-xs-12 col-sm-4 col-md-4 active">
+                            <a href="#flh_1" id="toone" aria-controls="flh_1" role="tab" data-toggle="tab">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома до 1 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </li>
+                        <li role="presentation" class="col-xs-12 col-sm-4 col-md-4">
+                            <a href="#flh_2" aria-controls="flh_2" role="tab" data-toggle="tab">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома до 1 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </li>
+                        <li role="presentation" class="col-xs-12 col-sm-4 col-md-4">
+                            <a href="#flh_3" aria-controls="flh_3" role="tab" data-toggle="tab">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома до 1 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </li>
+                        <li role="presentation" class="col-xs-12 col-sm-4 col-md-4">
+                            <a id="totwo" href="#slh_1" aria-controls="slh_1" role="tab" data-toggle="tab">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома до 2,5 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </li>
+                        <li role="presentation" class="col-xs-12 col-sm-4 col-md-4">
+                            <a href="#slh_2" aria-controls="slh_2" role="tab" data-toggle="tab">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома до 2,5 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </li>
+                        <li role="presentation" class="col-xs-12 col-sm-4 col-md-4">
+                            <a href="#slh_3" aria-controls="slh_3" role="tab" data-toggle="tab">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома до 2,5 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </li>
+                        <li role="presentation" class="col-xs-12 col-sm-4 col-md-4">
+                            <a id="tomore" href="#tlh_1" aria-controls="tlh_1" role="tab" data-toggle="tab">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома от 2,5 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </li>
+                        <li role="presentation" class="col-xs-12 col-sm-4 col-md-4">
+                            <a href="#tlh_2" aria-controls="tlh_2" role="tab" data-toggle="tab">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома от 2,5 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </li>
+                        <li role="presentation" class="col-xs-12 col-sm-4 col-md-4">
+                            <a href="#tlh_3" aria-controls="tlh_3" role="tab" data-toggle="tab">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома от 2,5 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <div class="row">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="flh_1">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img1">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img2">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img3">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-md hidden-lg" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img1" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img2" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img3" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2>Проект до 1 млн рублей</h2>
+                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                        несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                        начинающему оратору отточить навык.</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                    <ul class="nav hidden-sm hidden-xs" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img1" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img2" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img3" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="flh_2">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img4">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img5">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img6">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-md hidden-lg" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img4" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img5" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img6" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2>Описание проекта 13-13</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, consequuntur
+                                        enim perferendis quos repellendus reprehenderit similique? Asperiores
+                                        consequatur doloribus, enim esse, exercitationem impedit iure laboriosam minus
+                                        officiis provident quidem vel.</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                    <ul class="nav hidden-xs hidden-sm" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img4" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img5" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img6" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="flh_3">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img7">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img8">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img9">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-md hidden-lg" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img7" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img8" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img9" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <h2>Описание проекта 13-13</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error iste itaque quam.
+                                        Accusantium architecto minus sed sit! Amet culpa ea eaque id quam? Dignissimos
+                                        fuga optio placeat! Delectus, praesentium, unde.</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                    <ul class="nav hidden-sm hidden-xs" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img7" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img8" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img9" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="slh_1">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img10">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img11">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img12">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-md hidden-lg" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img10" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img11" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img12" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2>Проект до 2,5 млн рублей</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cupiditate
+                                        dignissimos fugit itaque, magnam obcaecati, odit omnis possimus quas repellat,
+                                        rerum veniam veritatis! Consequatur expedita laborum maxime quaerat, sint
+                                        veniam?</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                    <ul class="nav hidden-xs hidden-sm" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img10" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img11" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img12" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="slh_2">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img16">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img17">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img18">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-lg hidden-md" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img16" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img17" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img18" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <h2>Описание проекта 13-13</h2>
+                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                        несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                        начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                        При создании генератора мы использовали небезизвестный универсальный код речей.
+                                        Текст генерируется абзацами случайным образом от двух до десяти предложений в
+                                        абзаце, что позволяет сделать текст.</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                    <ul class="nav hidden-sm hidden-xs" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img16" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img17" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img18" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="slh_3">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img21">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img22">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img23">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-md hidden-lg" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img21" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img22" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img23" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <h2>Описание проекта 13-13</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos fugit illo
+                                        inventore maxime pariatur, rem saepe? Ad beatae commodi, eligendi explicabo
+                                        iste, iure magnam nam, quasi qui quisquam quo unde!</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                    <ul class="nav hidden-sm hidden-xs" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img21" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img22" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img23" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane " id="tlh_1">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img31">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img32">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img33">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-md hidden-lg" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img31" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img32" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img33" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <h2>Проект от 2,5 млн рублей</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos fugit illo
+                                        inventore maxime pariatur, rem saepe? Ad beatae commodi, eligendi explicabo
+                                        iste, iure magnam nam, quasi qui quisquam quo unde!</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                    <ul class="nav hidden-xs hidden-sm" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img31" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img32" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img33" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tlh_2">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img36">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img34">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img35">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-md hidden-lg" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img36" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img34" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img35" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2>Описание проекта 13-13</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos fugit illo
+                                        inventore maxime pariatur, rem saepe? Ad beatae commodi, eligendi explicabo
+                                        iste, iure magnam nam, quasi qui quisquam quo unde!</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                    <ul class="nav hidden-xs hidden-sm" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img36" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img34" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img35" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tlh_3">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img14">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img15">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-md hidden-lg" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img13" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img14" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img15" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2>Описание проекта 13-13</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos fugit illo
+                                        inventore maxime pariatur, rem saepe? Ad beatae commodi, eligendi explicabo
+                                        iste, iure magnam nam, quasi qui quisquam quo unde!</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                    <ul class="nav hidden-sm hidden-xs" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img13" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img14" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img15" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row hidden-sm hidden-md hidden-lg">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="col-xs-12">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <img class="img-responsive" src="img/house.png" alt="image">
+                                    <span class="shadow"></span>
+                                    <span class="text">Дома до 1 млн</span>
+                                    <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img1_1">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img1_2">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img1_3">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-md hidden-lg" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img1_1" aria-controls="img1_1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img1_2" aria-controls="img1_2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img1_3" aria-controls="img1_3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2>Проект до 1 млн рублей</h2>
+                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                        несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                        начинающему оратору отточить навык.</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel ">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="col-xs-12">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома до 1 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img2_1">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img2_2">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img2_3">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-md hidden-lg" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img2_1" aria-controls="img2_1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img2_2" aria-controls="img2_2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img2_3" aria-controls="img2_3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2>Описание проекта 13-13</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, consequuntur
+                                        enim perferendis quos repellendus reprehenderit similique? Asperiores
+                                        consequatur doloribus, enim esse, exercitationem impedit iure laboriosam minus
+                                        officiis provident quidem vel.</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel ">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="col-xs-12">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома до 1 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img3_1">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img3_2">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img3_3">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-md hidden-lg" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img3_1" aria-controls="img3_1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img3_2" aria-controls="img3_2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img3_3" aria-controls="img3_3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <h2>Описание проекта 13-13</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error iste itaque quam.
+                                        Accusantium architecto minus sed sit! Amet culpa ea eaque id quam? Dignissimos
+                                        fuga optio placeat! Delectus, praesentium, unde.</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                    <ul class="nav hidden-sm hidden-xs" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img7" aria-controls="img1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img8" aria-controls="img2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img9" aria-controls="img3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel ">
+                    <div class="panel-heading" role="tab" id="heading21">
+                        <h4 class="col-xs-12">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse21" aria-expanded="false" aria-controls="collapse21">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома до 2,5 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse21" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading21">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img4_1">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img4_2">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img4_3">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-md hidden-lg" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img4_1" aria-controls="img4_1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img4_2" aria-controls="img4_2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img4_3" aria-controls="img4_3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2>Проект до 2,5 млн рублей</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cupiditate
+                                        dignissimos fugit itaque, magnam obcaecati, odit omnis possimus quas repellat,
+                                        rerum veniam veritatis! Consequatur expedita laborum maxime quaerat, sint
+                                        veniam?</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel ">
+                    <div class="panel-heading" role="tab" id="heading22">
+                        <h4 class="col-xs-12">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома до 2,5 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse22" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading22">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="imп5_1">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="imп5_2">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="imп5_3">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-lg hidden-md" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#imп5_1" aria-controls="imп5_1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#imп5_2" aria-controls="imп5_2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#imп5_3" aria-controls="imп5_3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <h2>Описание проекта 13-13</h2>
+                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                        несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                        начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                        При создании генератора мы использовали небезизвестный универсальный код речей.
+                                        Текст генерируется абзацами случайным образом от двух до десяти предложений в
+                                        абзаце, что позволяет сделать текст.</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel ">
+                    <div class="panel-heading" role="tab" id="heading23">
+                        <h4 class="col-xs-12">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse23" aria-expanded="false" aria-controls="collapse23">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома до 2,5 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse23" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading23">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="imп6_1">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="imп6_2">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="imп6_3">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-lg hidden-md" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#imп6_1" aria-controls="imп6_1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#imп6_2" aria-controls="imп6_2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#imп6_3" aria-controls="imп6_3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2>Описание проекта 13-13</h2>
+                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                        несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                        начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                        При создании генератора мы использовали небезизвестный универсальный код речей.
+                                        Текст генерируется абзацами случайным образом от двух до десяти предложений в
+                                        абзаце, что позволяет сделать текст.</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel ">
+                    <div class="panel-heading" role="tab" id="heading31">
+                        <h4 class="col-xs-12">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse31" aria-expanded="false" aria-controls="collapse31">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома от 2,5 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse31" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading31">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img7_1">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img7_2">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img7_3">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-md hidden-lg" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img7_1" aria-controls="img7_1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img7_2" aria-controls="img7_2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img7_3" aria-controls="img7_3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <h2>Проект от 2,5 млн рублей</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos fugit illo
+                                        inventore maxime pariatur, rem saepe? Ad beatae commodi, eligendi explicabo
+                                        iste, iure magnam nam, quasi qui quisquam quo unde!</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel ">
+                    <div class="panel-heading" role="tab" id="heading32">
+                        <h4 class="col-xs-12">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse32" aria-expanded="false" aria-controls="collapse32">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома от 2,5 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse32" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading32">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img8_1">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img8_2">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img8_3">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-md hidden-lg" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img8_1" aria-controls="img8_1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img8_2" aria-controls="img8_2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img8_3" aria-controls="img8_3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <h2>Проект от 2,5 млн рублей</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos fugit illo
+                                        inventore maxime pariatur, rem saepe? Ad beatae commodi, eligendi explicabo
+                                        iste, iure magnam nam, quasi qui quisquam quo unde!</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel ">
+                    <div class="panel-heading" role="tab" id="heading33">
+                        <h4 class="col-xs-12">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse33" aria-expanded="false" aria-controls="collapse33">
+                                <img class="img-responsive" src="img/house.png" alt="image">
+                                <span class="shadow"></span>
+                                <span class="text">Дома от 2,5 млн</span>
+                                <img src="img/eye.png" class="eye" alt="image">
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse33" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading33">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-7">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="img9_1">
+                                            <img src="img/img1.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img9_2">
+                                            <img src="img/img2.png" class="img-responsive" alt="image">
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="img9_3">
+                                            <img src="img/img3.png" class="img-responsive" alt="image">
+                                        </div>
+                                    </div>
+                                    <ul class="nav hidden-md hidden-lg" role="tablist">
+                                        <li role="presentation" class="tabs active">
+                                            <a href="#img9_1" aria-controls="img9_1" role="tab" data-toggle="tab">
+                                                <img src="img/img1.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="tabs">
+                                            <a href="#img9_2" aria-controls="img9_2" role="tab" data-toggle="tab">
+                                                <img src="img/img2.png" class="img-responsive" alt="image">
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class=" tabs">
+                                            <a href="#img9_3" aria-controls="img9_3" role="tab" data-toggle="tab">
+                                                <img src="img/img3.png" alt="image">
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <h2>Проект от 2,5 млн рублей</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos fugit illo
+                                        inventore maxime pariatur, rem saepe? Ad beatae commodi, eligendi explicabo
+                                        iste, iure magnam nam, quasi qui quisquam quo unde!</p>
+                                </div>
+                                <div class="col-xs-12 col-md-5 ta">
+                                    <p><img src="img/itemimg1.png" alt="image">S общ.:<span> 190.3 м2 </span></p>
+                                    <p><img src="img/itemimg2.png" alt="image">Размеры: <span> 12.1 x 9.3 </span></p>
+                                    <p class="cost">Стоимость домов<br><span>от 910 000 руб</span></p>
+                                    <a data-toggle="modal" data-target="#myModal"
+                                       class="detail button button--ujarak"><span>Подробнее</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="condition">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-offset-1 col-md-10">
+                <div class="row">
+                    <div class="col-xs-12 za">
+                        <h1>
+                            Получите полный каталог нашх проектов прямо сейчас!
+                        </h1>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-xs-12  col-md-12 bgform">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-offset-7 col-md-5  ">
+                                <h2 class="text-center">Оставьте свои контактные данные
+                                    и мы вышлем вам полный каталог
+                                    наших проектов.</h2>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control"
+                                               placeholder="Введите ваше имя" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control maskphone"
+                                               placeholder="Введите ваше телефон" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control"
+                                               placeholder="Введите ваш e-mail" required>
+                                    </div>
+                                    <button type="button" onclick="initgreen()"
+                                            class="btn detail2 button button--ujarak"><span>Получить каталог</span>
+                                    </button>
+                                </form>
+                                <p class="conf"><img src="img/zamok.png" alt="image">Ваши данные под защитой<br>
+                                    политики конфиденциальности
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class=" constr" id="complect">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Комплектация дома из газобетона<br>
+                    от строительной компании "Пифагор"</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12  col-md-12  col-lg-offset-1 col-lg-10">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6  leftblock">
+                        <img class="elips" src="img/elips1.png" alt="image">
+                        <h3>Фундамент</h3>
+                        <p>Бетонная плита 250 мм, укладка геотекстиля,
+                            устройство подушки из песка и щебня,
+                            гидроизоляция, опалубка, армирование,
+                            бетонирование.</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6  rightblock">
+                        <img class="elips" src="img/elips2.png" alt="image">
+                        <h3>Перекрытия</h3>
+                        <p>По деревянным балкам/монолитные.</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6  leftblock">
+                        <img class="elips" src="img/elips3.png" alt="image">
+                        <h3>Кровля</h3>
+                        <p>Стропильная система,
+                            обрешетка/контробрешетка,
+                            паро/ветрозащита, утепеление 150 мм,
+                            покрытие металлочерепица.</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6  rightblock">
+                        <img class="elips" src="img/elips4.png" alt="image">
+                        <h3>Несущие стены/внутренние перегородки</h3>
+                        <p>Газобетон D500 КЖБИ 211 375*250*625<br>
+                            Газобетон D500 КЖБИ 211 200*250*625</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class=" pluses" id="plus">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Плюсы работы с нами</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <div class="ones p1">
+                    <img src="img/medal.png" class="img-responsive center-block" alt="image">
+                </div>
+
+                <div class="twos hi p11">
+                    <div class="progress blue">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                        <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                        <div class="progress-value">
+                            <img src="img/medal.png" class="img-responsive center-block" alt="image">
+
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center">Огромный опыт</p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="ones p2">
+                    <img src="img/men.png" class="img-responsive center-block" alt="image">
+                </div>
+                <div class="twos hi p22">
+                    <div class="progress blue">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                        <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                        <div class="progress-value">
+                            <img src="img/men.png" class="img-responsive center-block" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center">Контроль
+                    и качество</p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="ones p3">
+                    <img src="img/like.png" class="img-responsive center-block" alt="image">
+                </div>
+                <div class="twos hi p33">
+                    <div class="progress blue">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                        <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                        <div class="progress-value">
+                            <img src="img/like.png" class="img-responsive center-block" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center">Только лучшие
+                    материалы</p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                    <div class="ones p4">
+                        <img src="img/portmone.png" class="img-responsive center-block" alt="image">
+                    </div>
+                    <div class="twos hi p44">
+                        <div class="progress blue">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                            <span class="progress-right">
+                            <span class="progress-bar"></span>
+                            </span>
+                            <div class="progress-value">
+                                <img src="img/portmone.png" class="img-responsive center-block" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-center">Разумные
+                        цены</p>
+                </div>
+        </div>
+    </div>
+</section>
+<section class=" gazblock">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>
+                    Используемые газобитонные блоки
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-5">
+                <img src="img/gazblock.png" class="img-responsive center-block" alt="image">
+            </div>
+            <div class="col-xs-12 col-md-7">
+                <p><b>Теплоизоляция</b><br> Основной показатель, на который делают упор - это невероятный уровень теплоизоляции материала.
+                    Газобетонная стена будет иметь меньшую стоимость, чем конструкция из кирпича с сопоставимыми теплоизоляционными свойствами. </p>
+                <p><b>Высокая точность и большие размеры</b><br>  Высокая точность и большие размеры блоков
+                    позволяют возводить стены с минимальными отклонениями и высокой скоростью. </p>
+                <p><b>Возможность отказа от применения цементного состава для кладки</b><br>  Использование специального клеящего состава вместо обычной цементной смеси минимизирует эффект от мостиков холода. Это снижает теплопотери с 25% до 8-10%. Количество используемого клея существенно меньше,
+                    до 5 раз, по сравнению с цементным раствором.</p>
+                <p><b>Устойчивость к огню</b><br>  Высокий уровень устойчивости к огню и другим агрессивным воздействиям окружающей среды.</p>
+                <p><b>Морозостойкость</b><br>  Газобетонные блоки обладают неплохим уровнем морозостойкости,
+                    который составляет F-50, т. е. 50 циклов замораживания-размораживания.</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class=" chema">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Схема работы с нами</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <div class="ones s1">
+                    <img src="img/phone3.png" class="img-responsive center-block" alt="image">
+                </div>
+                <div class="twos hi s11">
+                    <div class="progress blue">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                        <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                        <div class="progress-value">
+                            <img src="img/phone3.png" class="img-responsive center-block" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center">Позвоните нам</p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="ones s2">
+                    <img src="img/calc.png" class="img-responsive center-block" alt="image">
+                </div>
+                <div class="twos hi s22">
+                    <div class="progress blue">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                        <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                        <div class="progress-value">
+                            <img src="img/calc.png" class="img-responsive center-block" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center">Расчитаем стоимость</p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="ones s3">
+                    <img src="img/note.png" class="img-responsive center-block" alt="image">
+                </div>
+                <div class="twos hi s33">
+                    <div class="progress blue">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                        <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                        <div class="progress-value">
+                            <img src="img/note.png" class="img-responsive center-block" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center">Подпишем договор</p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="ones s4">
+                    <img src="img/home.png" class="img-responsive center-block" alt="image">
+                </div>
+                <div class="twos hi s44">
+                    <div class="progress blue">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                        <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                        <div class="progress-value">
+                            <img src="img/home.png" class="img-responsive center-block" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center">Дом готов! Вам остаётся<br>
+                    только перевести вещи!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="detail button button--ujarak" data-toggle="modal" data-target="#myModal3"><span>Оставить заявку</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="question2">
+    <div class="question-title">
+        У вас появился вопрос? Мы обязательно ответим Вам! <a href="#question">Перейти к чаcто задаваевым вопросам</a>
+        <button type="submit" class="btn parallelogram button--ujarak" data-toggle="modal" data-target="#myModal3"><span
+                class="skew-fix">Задать вопрос</span></button>
+    </div>
+</section>
+<section class="empty">
+
+</section>
+<section class="form-home">
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0 form2">
+                <div class="front2-title">
+
+                </div>
+                <div class="back2-title">
+                    <h1>Приятный бонус при завершении строительства</h1>
+                </div>
+                <div class="col-md-7 col-sm-6 bonus-img ">
+                    <img class="circle-img img-responsive" src="img/home-circle.png" alt="img">
+                </div>
+                <div class="col-xs-12 col-md-5 col-sm-6 bonus ">
+                    <h2 class="text-center">Оставьте заявку прямо сейчас <span>и получите подарок!</span></h2>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control"
+                                   placeholder="Введите ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control maskphone"
+                                   placeholder="Введите ваше телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control"
+                                   placeholder="Введите ваш e-mail" required>
+                        </div>
+                        <button type="button" onclick="initblue()" class="btn detail2 button button--ujarak"><span>Оставить заявку</span>
+                        </button>
+                    </form>
+                    <p class="conf"><img src="img/zamok.png" alt="image">Ваши данные под защитой<br>
+                        политики конфиденциальности
+                    </p>
+                </div>
+
+                <div class="front-bottom">
+                    Закажите строительство дома из бруса<br> и получите <span>монсардное окно в подарок!</span>
+                </div>
+                <div class="front-bottom2  hidden-md hidden-lg">
+                    Закажите строительство дома из бруса<br> и получите <span>монсардное окно в подарок!</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="otzuv" id="testimonial">
+    <div class="container">
+        <div class="row">
+            <h1>Отзывы счастливых обладателей домов <span>от СК "Пифагор"</span></h1>
+            <div class="owl-carousel owl">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <ul class="otzuv-list">
+                            <li>Расположение:<span> Санкт-Петербург</span></li>
+                            <li>Размеры дома:<span>11х12</span></li>
+                            <li>Проект<span>№ 11</span></li>
+                            <li>Фундамент: <span>Бетонная плита 250мм,укладка геотекстиля</span></li>
+                            <li>Кровля:<span>Стропильная система,обрешотка/контробрешотка,паро/ветрозащита</span></li>
+                            <li>Перекрытие:<span>По деревянным балкам/монолитные</span></li>
+                            <li>Терасса:<span>С отделкой и утверждением</span></li>
+                        </ul>
+                        <p class="otzuv-txt">
+                            По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у
+                            некторых
+                            людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на
+                            русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит
+                            советских времен.
+                        </p>
+                        <div class="col-md-12 bottom-otzuv">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href="http://vk.com/" target="_blank"><img class="img-responsive" src="img/face.png"
+                                                                              alt="face"></a>
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-9">
+                                <p>
+                                    По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который
+                                    вызывает у некторых
+                                    людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст
+                                    рыба на
+                                    русском языке наполнит любой макет непонятным смыслом.
+                                </p>
+                                <p class="otzuv-info">г.Казань.<span>Роман Кудрявцев.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0 col-md-offset-0 col-lg-offset-0">
+                        <div class="home">
+                            <div><img class="img-responsive" src="img/ot-home.png" alt="slide"></div>
+                            <div><img class="img-responsive" src="img/img2.png" alt="slide"></div>
+                            <div><img class="img-responsive" src="img/img3.png" alt="slide"></div>
+                        </div>
+                        <div class="slider-nav">
+                            <div><img class="img-responsive" src="img/home1.png" alt="slide"></div>
+                            <div><img class="img-responsive" src="img/img2.png" alt="slide"></div>
+                            <div><img class="img-responsive" src="img/img3.png" alt="slide"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <ul class="otzuv-list">
+                            <li>Расположение:<span> Санкт-Петербург</span></li>
+                            <li>Размеры дома:<span>11х12</span></li>
+                            <li>Проект<span>№ 11</span></li>
+                            <li>Фундамент: <span>Бетонная плита 250мм,укладка геотекстиля</span></li>
+                            <li>Кровля:<span>Стропильная система,обрешотка/контробрешотка,паро/ветрозащита</span></li>
+                            <li>Перекрытие:<span>По деревянным балкам/монолитные</span></li>
+                            <li>Терасса:<span>С отделкой и утверждением</span></li>
+                        </ul>
+                        <p class="otzuv-txt">
+                            По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у
+                            некторых
+                            людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на
+                            русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит
+                            советских времен.
+                        </p>
+                        <div class="col-md-12 col-xs-12 bottom-otzuv">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <a href="http://vk.com/" target="_blank"><img class="img-responsive" src="img/face.png"
+                                                                              alt="face"></a>
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-9">
+                                <p>
+                                    По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который
+                                    вызывает у некторых
+                                    людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст
+                                    рыба на
+                                    русском языке наполнит любой макет непонятным смыслом.
+                                </p>
+                                <p class="otzuv-info">г.Казань.<span>Роман Кудрявцев.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0  col-md-offset-0 col-lg-offset-0">
+                        <div class="home">
+                            <div><img class="img-responsive" src="img/ot-home.png" alt="slide"></div>
+                            <div><img class="img-responsive" src="img/img2.png" alt="slide"></div>
+                            <div><img class="img-responsive" src="img/img3.png" alt="slide"></div>
+                        </div>
+                        <div class="slider-nav">
+                            <div><img class="img-responsive" src="img/home1.png" alt="slide"></div>
+                            <div><img class="img-responsive" src="img/img2.png" alt="slide"></div>
+                            <div><img class="img-responsive" src="img/img3.png" alt="slide"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="pifagor-form">
+    <form role="form" id="pifagor">
+        <div class="form-inline">
+            <div class="front-title">
+
+            </div>
+            <div class="back-title">
+                <h1>Начните строительстово Вашего дома уже сегодня с СК "Пифагор"!</h1>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Введите ваше имя" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" class="form-control maskphone" id="phone" placeholder="Введите ваш телефон" required>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Введите ваш e-mail" required>
+            </div>
+        </div>
+        <button type="submit" class="btn pifagor-btn button--isi" data-toggle="modal" data-target="#myModal3"><span>Оставить заявку</span>
+        </button>
+    </form>
+</section>
+<section class="question" id="question">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h1>Часто задаваемые вопросы</h1>
+                <div class="panel-group margin_0" id="accordion1">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse1">
+                                    <i class="rt-icon2-bubble highlight"></i>
+                                    Чем Ваш дом из бруса отличается от домов других строительных компаний?
+                                </a>
+                            </h4>
+                        </div>
+                        <div style="height: 0px;" id="collapse1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium amet ea dicta
+                                neque, ut quis omnis quos nam, pariatur, minus, fugit suscipit aspernatur sint ullam
+                                quas explicabo. Alias, officiis, dolor!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse2" class="collapsed">
+                                    <i class="rt-icon2-bubble highlight"></i>
+                                    Что значит дом из бруса "под ключ"?
+                                </a>
+                            </h4>
+                        </div>
+                        <div style="height: 0px;" id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facere
+                                doloremque ut dolores laudantium nihil at, repudiandae est numquam fuga tempora totam
+                                sequi quidem saepe officiis sint beatae, magni fugit.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse3" class="collapsed">
+                                    <i class="rt-icon2-bubble highlight"></i>
+                                    Сколько времени занимает строительство дома из бруса?
+                                </a>
+                            </h4>
+                        </div>
+                        <div style="height: 0px;" id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At nobis omnis delectus,
+                                asperiores quo obcaecati et iste corporis necessitatibus tempora aspernatur doloribus.
+                                Ut deleniti commodi dicta distinctio sit enim quidem!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="question-title">
+        Не нашли ответа на свой вопрос? Мы обязательно ответим Вам!
+        <button type="submit" class="btn parallelogram button--ujarak" data-toggle="modal" data-target="#myModal3"><span
+                class="skew-fix">Задать вопрос</span></button>
+    </div>
+</section>
+<section class="sertificat" id="why">
+    <div class="container">
+        <div class="row">
+            <h1>Почему клиенты доверяют нам</h1>
+
+            <div class=" col-md-4 hidden-xs col-sm-4 sertificat1">
+                <img src="img/sertificat1.png" alt="img">
+            </div>
+            <div class="col-md-4 col-sm-4 hidden-xs  sertificat2">
+                <img src="img/sertificat2.png" alt="img">
+            </div>
+            <div class=" col-md-4 col-sm-4 hidden-xs  sertificat3">
+                <img src="img/sertificat1.png" alt="img">
+            </div>
+            <div class="col-xs-offset-1 col-xs-10 hidden-md hidden-lg hidden-sm">
+            <div class="slide-sert ">
+                <img src="img/sertificat1.png" class="img-responsive" alt="img">
+                <img src="img/sertificat2.png" class="img-responsive" alt="img">
+                <img src="img/sertificat1.png" class="img-responsive" alt="img">
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="general-director">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-5 foto-dir">
+                <img src="img/director.jpg" class="img-responsive" alt="director">
+                <div class="dir-info">
+                    <p>Генеральный директор компании </p>
+                    <p>"CК-Пифагор"</p>
+                    <p><span>Марсисян Гарий Тигранович</span></p>
+                </div>
+            </div>
+            <div class="col-md-7 col-sm-7 director">
+                <h1>
+                    Обращение генерального директора
+                </h1>
+                <p>
+                    Приветствую вас на сайте нашей компании.</p>
+                    <p>За 17 лет на строительном рынке мы осуществили и сдали в срок более сотни объектов различной сложности: от гаражей и бань до загородных многоэтажных домов. С каждой следующей постройкой мы учимся чему-то новому, внедряем и используем новые материалы и технологии.</p>
+                <p> Обратившись к нам со своей задумкой, вы можете быть уверены в том, что мы найдем несколько вариантов ее осуществления, начиная от базового материала (будь то газобетон, крупноформатный кирпич или брус) и заканчивая благоустройством участка.</p>
+                <p>Я рад тому, что на протяжении многих лет наша компания сохраняет верный курс, не изменяя основополагающим принципам, при этом сохраняя индивидуальный подход к каждому клиенту.</p>
+                   <p> Надеюсь, что и вам удастся это почувствовать. Спасибо за ваше доверие!
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="map" id="contact">
+    <div class="map-info">
+        <h1>
+            Контакты
+        </h1>
+        <p class="ofice"><img src="img/metka.png" alt="img">Офис продаж:</p>
+        <p class="adress">м.Ленинский проспект, м.Проспект
+            Ветеранов,м. Московская.</p>
+        <p class="adress">г. Санкт-Петербург, проспект
+            Народного Ополчения, 22</p>
+        <p class="adress">ТЦ «Русская деревня» 2ой этаж
+            правое крыло секция 228</p>
+        <div class="work-block">
+            <p class="work"><img src="img/clock.png" alt="img">Время работы:<span>Пн-Cб:10:00-19:00</span></p>
+            <p class="work"><img src="img/f-tel.png" alt="img">Телефон:<span>8 (812) 331-79-34</span></p>
+        </div>
+    </div>
+    <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A479fc701de346a9040e431d96a330a492d50e4d1d7352fd9009a580757679e7e&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-sm-12">
+                <div class="row">
+                    <div class="col-md-2 hidden-sm">
+                        <a href="#" class="footer-logo">
+                            <img src="img/f-logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-md-10 col-sm-12">
+                        <div class="row">
+                            <ul class="footer-menu" id="footer-menu">
+                                <li><a href="#proj">Проекты</a></li>
+                                <li><a href="#complect">Комплектация</a></li>
+                                <li><a href="#plus">Плюсы работы с ними</a></li>
+                                <li><a href="#testimonial">Отзывы</a></li>
+                                <li><a href="#question">Вопрос/Ответ</a></li>
+                                <li><a href="#why">Почему клиент доверяют нам</a></li>
+                                <hr>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 hidden-md hidden-lg hidden-xs">
+                        <a href="#" class="footer-logo">
+                            <img src="img/f-logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="contact col-sm-6 hidden-md hidden-lg ">
+                        Контакты:
+                        <ul>
+                            <li>8 (812) 331-79-34</li>
+                            <li>8 (967) 593-06-43</li>
+                            <li> 8 (965) 075-99-58</li>
+                            <li class="f-mail"><a href="#">info@sk-pifagor.ru</a></li>
+                            <li><a href="#">skpifagor@bk.ru</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-12 f-top">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-12">
+                                <p class="year">
+                                    © 2017 Строительная компания "Пифагор"
+                                </p>
+                            </div>
+                            <div class="col-md-7 col-sm-12">
+                                <p class="silver">
+                                    <a href="#" target="_blank">Разработка, поддержка и
+                                        продвижение сайтов VinDevis</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 hidden-xs hidden-sm ">
+                <div class="row">
+                    <div class="contact">
+                        Контакты:
+                        <ul>
+                            <li>8 (812) 331-79-34</li>
+                            <li>8 (967) 593-06-43</li>
+                            <li> 8 (965) 075-99-58</li>
+                            <li class="f-mail"><a href="#">info@sk-pifagor.ru</a></li>
+                            <li><a href="#">skpifagor@bk.ru</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-front">
+
+                </div>
+                <div class="modal-back">
+                    <h2>Заказать звонок</h2>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">Закрыть</span></button>
+            </div>
+            <div class="modal-body">
+                <h2 class="text-center">Введите свои контакты для связи и мы Вам перезвоним! </h2>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control"
+                               placeholder="Введите ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control maskphone"
+                               placeholder="Введите ваше телефон" required>
+                    </div>
+                    <button type="button" onclick="initgreen()" class="btn detail2 button button--ujarak"><span>Позвоните мне!</span>
+                    </button>
+                </form>
+                <p class="conf"><img src="img/zamok.png" alt="image">Ваши данные под защитой<br>
+                    политики конфиденциальности
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-front">
+
+                </div>
+                <div class="modal-back">
+                    <h2>Заказать звонок</h2>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">Закрыть</span></button>
+            </div>
+            <div class="modal-body">
+                <h2 class="text-center">Введите свои контакты для связи и мы Вам перезвоним! </h2>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control"
+                               placeholder="Введите ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control maskphone"
+                               placeholder="Введите ваше телефон" required>
+                    </div>
+                    <button type="button" onclick="initblue()" class="btn detail2 button button--ujarak2"><span>Позвоните мне!</span>
+                    </button>
+                </form>
+                <p class="conf"><img src="img/zamok.png" alt="image">Ваши данные под защитой<br>
+                    политики конфиденциальности
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-front">
+
+                </div>
+                <div class="modal-back">
+                    <h2>Заявка отправлена</h2>
+                </div>
+            </div>
+            <div class="modal-body">
+                <h1>Спасибо!</h1>
+                <p> Мы получили ваш запрос.<br>
+                    Скоро, наш менеджер свяжется c Вами </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+
+<div id="grenthaks">
+    <img class="img-responsive" src="img/thankgreen.png"  alt="image">
+</div>
+<div id="bluethaks">
+    <img class="img-responsive" src="img/thankblue.png" alt="image">
+</div>
+
+
+<a class="pl1 a" onclick="pl1()"></a>
+<a class="pl11 a" onclick="pl11()"></a>
+
+
+<a class="pl2 a" onclick="pl2()"></a>
+<a class="pl22 a" onclick="pl22()"></a>
+
+<a class="pl3 " onclick="pl3()"></a>
+<a class="pl33 a" onclick="pl33()"></a>
+
+<a class="pl4 a" onclick="pl4()"></a>
+<a class="pl44 a" onclick="pl44()"></a>
+
+<a class="sl1 a" onclick="sl1()"></a>
+<a class="sl11 a" onclick="sl11()"></a>
+
+
+<a class="sl2 a" onclick="sl2()"></a>
+<a class="sl22 a" onclick="sl22()"></a>
+
+<a class="sl3 a" onclick="sl3()"></a>
+<a class="sl33 a" onclick="sl33()"></a>
+
+<a class="sl4 a" onclick="sl4()"></a>
+<a class="sl44 a" onclick="sl44()"></a>
+
+
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/jquery.circliful.min.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+
+
+    $(".logo").click(function (event) {
+        location.reload();
+    });
+
+
+    $("#menu").on("click", "a", function (event) {
+        event.preventDefault();
+        var id = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+    $("#tochose").on("click", "a", function (event) {
+        event.preventDefault();
+        var id = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+    function toone() {
+        $('#toone').trigger('click');
+    }
+    function totwo() {
+        $('#totwo').trigger('click');
+    }
+    function tomore() {
+        $('#tomore').trigger('click');
+    }
+    function initgreen() {
+        setTimeout(function () {
+            $('#grenthaks').css('display', 'block');
+        }, 1000);
+        setTimeout(function () {
+            $('.close').trigger('click');
+        }, 500);
+        setTimeout(function () {
+            $('#grenthaks').css('display', 'none');
+        }, 5000);
+    }
+    function initblue() {
+        setTimeout(function () {
+            $('#bluethaks').css('display', 'block');
+        }, 1000);
+        setTimeout(function () {
+            $('.close').trigger('click');
+        }, 500);
+        setTimeout(function () {
+            $('#bluethaks').css('display', 'none');
+        }, 5000);
+    }
+
+
+    function pl1() {
+        if ($('.p11').hasClass('hi')) {
+            $('.p1').addClass('hi');
+            $('.circlestat').circliful();
+            $('.p11').removeClass('hi');
+        }
+    }
+    function pl11() {
+        if ($('.p1').hasClass('hi')) {
+            $('.p11').addClass('hi');
+            $('.p1').removeClass('hi');
+        }
+    }
+    $(".p1").hover(function () {
+        $('.pl1').trigger('click');
+    },  function () {
+            setTimeout(function () {
+                $('.pl11').trigger('click');
+            }, 3300);
+        });
+
+/*plus2*/
+    function pl2() {
+        if ($('.p22').hasClass('hi')) {
+            $('.p2').addClass('hi');
+            $('.circlestat').circliful();
+            $('.p22').removeClass('hi');
+        }
+    }
+    function pl22() {
+        if ($('.p2').hasClass('hi')) {
+            $('.p22').addClass('hi');
+            $('.p2').removeClass('hi');
+        }
+    }
+    $(".p2").hover(function () {
+        $('.pl2').trigger('click');
+    },  function () {
+        setTimeout(function () {
+            $('.pl22').trigger('click');
+        }, 3300);
+    });
+/**/
+    function pl3() {
+        if ($('.p33').hasClass('hi')) {
+            $('.p3').addClass('hi');
+            $('.circlestat').circliful();
+            $('.p33').removeClass('hi');
+        }
+    }
+    function pl33() {
+        if ($('.p3').hasClass('hi')) {
+            $('.p33').addClass('hi');
+            $('.p3').removeClass('hi');
+        }
+    }
+    $(".p3").hover(function () {
+        $('.pl3').trigger('click');
+    },  function () {
+        setTimeout(function () {
+            $('.pl33').trigger('click');
+        }, 3300);
+    });
+/**/
+
+    function pl4() {
+        if ($('.p44').hasClass('hi')) {
+            $('.p4').addClass('hi');
+            $('.circlestat').circliful();
+            $('.p44').removeClass('hi');
+        }
+    }
+    function pl44() {
+        if ($('.p4').hasClass('hi')) {
+            $('.p44').addClass('hi');
+            $('.p4').removeClass('hi');
+        }
+    }
+    $(".p4").hover(function () {
+        $('.pl4').trigger('click');
+    },  function () {
+        setTimeout(function () {
+            $('.pl44').trigger('click');
+        }, 3300);
+    });
+
+    function sl1() {
+        if ($('.s11').hasClass('hi')) {
+            $('.s1').addClass('hi');
+            $('.circlestat').circliful();
+            $('.s11').removeClass('hi');
+        }
+    }
+    function sl11() {
+        if ($('.s1').hasClass('hi')) {
+            $('.s11').addClass('hi');
+            $('.s1').removeClass('hi');
+        }
+    }
+    $(".s1").hover(function () {
+        $('.sl1').trigger('click');
+    },  function () {
+        setTimeout(function () {
+            $('.sl11').trigger('click');
+        }, 3300);
+    });
+
+    /*plus2*/
+    function sl2() {
+        if ($('.s22').hasClass('hi')) {
+            $('.s2').addClass('hi');
+            $('.circlestat').circliful();
+            $('.s22').removeClass('hi');
+        }
+    }
+    function sl22() {
+        if ($('.s2').hasClass('hi')) {
+            $('.s22').addClass('hi');
+            $('.s2').removeClass('hi');
+        }
+    }
+    $(".s2").hover(function () {
+        $('.sl2').trigger('click');
+    },  function () {
+        setTimeout(function () {
+            $('.sl22').trigger('click');
+        }, 3300);
+    });
+    /**/
+    function sl3() {
+        if ($('.s33').hasClass('hi')) {
+            $('.s3').addClass('hi');
+            $('.circlestat').circliful();
+            $('.s33').removeClass('hi');
+        }
+    }
+    function sl33() {
+        if ($('.s3').hasClass('hi')) {
+            $('.s33').addClass('hi');
+            $('.s3').removeClass('hi');
+        }
+    }
+    $(".s3").hover(function () {
+        $('.sl3').trigger('click');
+    },  function () {
+        setTimeout(function () {
+            $('.sl33').trigger('click');
+        }, 3300);
+    });
+    /**/
+
+    function sl4() {
+        if ($('.s44').hasClass('hi')) {
+            $('.s4').addClass('hi');
+            $('.circlestat').circliful();
+            $('.s44').removeClass('hi');
+        }
+    }
+    function sl44() {
+        if ($('.s4').hasClass('hi')) {
+            $('.s44').addClass('hi');
+            $('.s4').removeClass('hi');
+        }
+    }
+    $(".s4").hover(function () {
+        $('.sl4').trigger('click');
+    },  function () {
+        setTimeout(function () {
+            $('.sl44').trigger('click');
+        }, 3300);
+    });
+
+
+
+
+
+
+
+
+    /*
+        function start() {
+            if ($('.twos').hasClass('hi')) {
+                $('.ones').addClass('hi');
+                $('.circlestat').circliful();
+                $('.twos').removeClass('hi');
+
+            }
+
+        }
+        function stop() {
+            if ($('.ones').hasClass('hi')) {
+                $('.twos').addClass('hi');
+                $('.ones').removeClass('hi');
+
+            }
+        }
+        $(".ones").hover(function () {
+            $('.h').trigger('click');
+        }, function () {
+            setTimeout(function () {
+                $('.a').trigger('click');
+            }, 3300);
+
+        });
+
+    */
+</script>
+
+</body>
+</html>

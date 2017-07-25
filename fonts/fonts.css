@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: 'WhitneyBook';
+    src: url('WhitneyBook/WhitneyBook.ttf');
+    src: url('WhitneyBook/WhitneyBook.eot');
+    src: local('☺'), url('WhitneyBook/WhitneyBook.woff') format('woff'),
+    url('WhitneyBook/WhitneyBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WhitneyLight';
+    src: url('WhitneyLight/WhitneyLight.eot');
+    src: local('☺'),
+    url('WhitneyLight/WhitneyLight.woff') format('woff'),
+    url('WhitneyLight/WhitneyLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "WhitneyMedium";
+    src: url("WhitneyMedium/WhitneyMedium.eot");
+    src: url("WhitneyMedium/WhitneyMedium.eot?#iefix") format("embedded-opentype"),
+    url("WhitneyMedium/WhitneyMedium.woff") format("woff"),
+    url("WhitneyMedium/WhitneyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "WhitneySemiBold";
+    src: url("WhitneySemiBold/WhitneySemiBold.eot");
+    src: url("WhitneySemiBold/WhitneySemiBold.eot?#iefix") format("embedded-opentype"),
+    url("WhitneySemiBold/WhitneySemiBold.woff") format("woff"),
+    url("WhitneySemiBold/WhitneySemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
