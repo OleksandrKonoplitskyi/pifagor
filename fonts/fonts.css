@@ -1,49 +1,38 @@
+
 @font-face {
-    font-family: "SegoeUIRegular";
-    src: url("SegoeUIRegular/SegoeUIRegular.eot");
-    src: url("SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
-    url("SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
-    url("SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+    font-family: 'WhitneyBook';
+    src: url('WhitneyBook/WhitneyBook.ttf');
+    src: url('WhitneyBook/WhitneyBook.eot');
+    src: local('☺'), url('WhitneyBook/WhitneyBook.woff') format('woff'),
+    url('WhitneyBook/WhitneyBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WhitneyLight';
+    src: url('WhitneyLight/WhitneyLight.eot');
+    src: local('☺'),
+    url('WhitneyLight/WhitneyLight.woff') format('woff'),
+    url('WhitneyLight/WhitneyLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "WhitneyMedium";
+    src: url("WhitneyMedium/WhitneyMedium.eot");
+    src: url("WhitneyMedium/WhitneyMedium.eot?#iefix") format("embedded-opentype"),
+    url("WhitneyMedium/WhitneyMedium.woff") format("woff"),
+    url("WhitneyMedium/WhitneyMedium.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
-/* font-family: "SegoeUIBold"; */
+
 @font-face {
-    font-family: "SegoeUIBold";
-    src: url("SegoeUIBold/SegoeUIBold.eot");
-    src: url("SegoeUIBold/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
-    url("SegoeUIBold/SegoeUIBold.woff") format("woff"),
-    url("SegoeUIBold/SegoeUIBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "SegoeUIItalic"; */
-@font-face {
-    font-family: "SegoeUIItalic";
-    src: url("SegoeUIItalic/SegoeUIItalic.eot");
-    src: url("SegoeUIItalic/SegoeUIItalic.eot?#iefix")format("embedded-opentype"),
-    url("SegoeUIItalic/SegoeUIItalic.woff") format("woff"),
-    url("SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "SegoeUILight"; */
-@font-face {
-    font-family: "SegoeUILight";
-    src: url("SegoeUILight/SegoeUILight.eot");
-    src: url("SegoeUILight/SegoeUILight.eot?#iefix")format("embedded-opentype"),
-    url("SegoeUILight/SegoeUILight.woff") format("woff"),
-    url("SegoeUILight/SegoeUILight.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-/* font-family: "SegoeUISemiBold"; */
-@font-face {
-    font-family: "SegoeUISemiBold";
-    src: url("SegoeUISemiBold/SegoeUISemiBold.eot");
-    src: url("SegoeUISemiBold/SegoeUISemiBold.eot?#iefix")format("embedded-opentype"),
-    url("SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"),
-    url("SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+    font-family: "WhitneySemiBold";
+    src: url("WhitneySemiBold/WhitneySemiBold.eot");
+    src: url("WhitneySemiBold/WhitneySemiBold.eot?#iefix") format("embedded-opentype"),
+    url("WhitneySemiBold/WhitneySemiBold.woff") format("woff"),
+    url("WhitneySemiBold/WhitneySemiBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
